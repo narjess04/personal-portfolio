@@ -1,0 +1,24 @@
+{
+    "slug":  "matchpilot",
+    "title":  "MatchPilot",
+    "repo":  "MatchPilot-LLM-Powered-Resume-Builder",
+    "year":  "2026",
+    "categories":  [
+                       "LLM",
+                       "NLP"
+                   ],
+    "technologies":  [
+                         "Python",
+                         "React",
+                         "TypeScript",
+                         "FastAPI",
+                         "SQLAlchemy",
+                         "LLM"
+                     ],
+    "description":  "Adapter une candidature à une offre sans dénaturer le parcours : analyse des compétences, rapprochement profil–poste et génération de CV compatibles ATS et de lettres de motivation avec des LLM.",
+    "content":  "## Personnaliser une candidature en restant fidèle au profil\nUn même parcours peut être présenté différemment selon le poste visé. MatchPilot aide les candidats, notamment les jeunes diplômés, à identifier les éléments pertinents de leur expérience et à préparer une candidature ciblée.\n\n## Du document au profil structuré\nLa plateforme importe un CV ou un profil LinkedIn, extrait le texte et utilise l’OCR si nécessaire. Les informations sont organisées en un profil éditable : expériences, formation, projets, compétences et langues.\n\nL’offre peut être fournie sous forme de texte ou de captures d’écran. Son analyse distingue les compétences attendues, les prérequis et les mots-clés utiles à la candidature.\n\n## Comparer, puis rédiger\nLe rapprochement entre le profil et l’offre identifie les compétences présentes, proches ou absentes, avec les éléments du parcours qui justifient la correspondance. Les LLM adaptent ensuite le CV et la lettre de motivation, en français ou en anglais.\n\nDes contrôles visent à préserver les entreprises, les dates et les diplômes, et à retirer ou signaler les compétences et les chiffres qui ne figurent pas dans le profil.\n\n## Une candidature prête à être relue\n- Modèles de CV compatibles avec les outils de suivi des candidatures (ATS).\n- Personnalisation de la présentation et export PDF.\n- Lettre de motivation fondée sur le parcours et l’offre.\n- Profil réutilisable pour plusieurs candidatures.\n\n## Le défi technique\nFaire coopérer extraction documentaire, analyse sémantique et génération, tout en gardant les informations du candidat comme référence. React et TypeScript assurent l’interface ; FastAPI et SQLAlchemy structurent le backend.",
+    "author":  "Narjess Ben Romdhane",
+    "github":  "https://github.com/narjess04/MatchPilot-LLM-Powered-Resume-Builder",
+    "post_date":  "2026-10-19",
+    "update_date":  "2026-10-30"
+}

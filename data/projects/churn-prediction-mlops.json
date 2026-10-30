@@ -1,0 +1,22 @@
+{
+    "slug":  "churn-prediction-mlops",
+    "title":  "Churn Prediction · MLOps",
+    "repo":  "Churn-Prediction--MLOps",
+    "year":  "2024",
+    "categories":  [
+                       "Machine Learning",
+                       "MLOps"
+                   ],
+    "technologies":  [
+                         "Python",
+                         "Random Forest",
+                         "Flask",
+                         "MLflow"
+                     ],
+    "description":  "Identifier les clients susceptibles de quitter un opérateur télécom : un projet de classification qui relie préparation des données, suivi des expériences MLflow et prédictions via une application Flask.",
+    "content":  "## Anticiper le départ des clients\nIdentifier les clients qui risquent de quitter un opérateur télécom permet d’orienter les actions de fidélisation. Ce projet aborde le problème comme une tâche de classification supervisée, puis rend le modèle utilisable depuis une application web.\n\n## De l’expérimentation à la prédiction\nLe travail comprend la préparation des données et l’entraînement de plusieurs modèles de classification. La version présentée dans le dépôt utilise un Random Forest pour estimer le risque de churn à partir des caractéristiques du client.\n\nMLflow conserve les expériences et les artefacts des modèles. Ce suivi permet de retrouver les configurations testées et d’organiser les versions produites au cours de l’expérimentation.\n\n## Rendre le modèle utilisable\nLe modèle sauvegardé est intégré à une application Flask. L’utilisateur renseigne les données d’un client et obtient une prédiction, sans passer par un notebook ou relancer l’entraînement.\n\n## Ce que le projet met en pratique\n- Préparation des données pour un problème de classification.\n- Entraînement et comparaison de modèles.\n- Suivi des expériences et conservation des modèles avec MLflow.\n- Intégration de l’inférence dans une application Flask.\n\n## Le défi technique\nAssurer la continuité entre le modèle expérimenté et celui utilisé dans l’application. Le projet relie ainsi la démarche Data Science aux premières étapes d’un workflow MLOps, avec un objectif métier concret : mieux comprendre le risque de départ des clients.",
+    "author":  "Narjess Ben Romdhane",
+    "github":  "https://github.com/narjess04/Churn-Prediction--MLOps",
+    "post_date":  "2025-02-28",
+    "update_date":  "2026-10-30"
+}

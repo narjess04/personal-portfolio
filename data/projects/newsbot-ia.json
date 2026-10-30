@@ -1,0 +1,24 @@
+{
+    "slug":  "newsbot-ia",
+    "title":  "NewsBot IA",
+    "repo":  "NewsBot-AI-",
+    "year":  "2025",
+    "categories":  [
+                       "NLP",
+                       "RAG"
+                   ],
+    "technologies":  [
+                         "Python",
+                         "React",
+                         "FastAPI",
+                         "LangChain",
+                         "ChromaDB",
+                         "Transformers"
+                     ],
+    "description":  "Un assistant pour explorer l’actualité plus efficacement : collecte d’articles, résumés automatiques, analyse des contenus et questions-réponses fondées sur les articles grâce au RAG.",
+    "content":  "## Passer de la veille à l’exploration\nParcourir plusieurs sources, lire les articles et en retenir l’essentiel demande du temps. NewsBot IA réunit ces étapes dans une interface où l’on peut consulter l’actualité, obtenir une synthèse et poser des questions sur les textes collectés.\n\n## Un pipeline de traitement du langage\nL’application récupère les articles via GNews, extrait leur contenu et nettoie le texte avant de l’organiser pour la lecture. Un modèle de langage génère les résumés ; un workflow n8n peut également prendre en charge cette étape.\n\nDeux modèles de classification apportent des indications complémentaires : l’un recherche des indices associés aux fake news, l’autre des indices de génération par IA. Ces scores accompagnent la lecture sans constituer une preuve de fiabilité.\n\n## Un chatbot ancré dans les articles\nLes textes sont découpés en passages, vectorisés puis indexés dans ChromaDB. Avec LangChain, le chatbot récupère les extraits pertinents pour construire une réponse à partir du corpus, tout en conservant le contexte de la conversation.\n\n## Du backend à l’interface\n- API FastAPI pour la collecte, les résumés et les analyses.\n- Interface React avec recherche, catégories et pages détaillées.\n- Chatbot Chainlit connecté au pipeline RAG.\n- Résumé extractif de secours si la génération est indisponible.\n\n## Ce que le projet met en pratique\nL’intégration de plusieurs briques NLP dans une application cohérente : collecte de données, classification, génération de texte et recherche sémantique.",
+    "author":  "Narjess Ben Romdhane",
+    "github":  "https://github.com/narjess04/NewsBot-AI-",
+    "post_date":  "2026-10-29",
+    "update_date":  "2026-10-30"
+}

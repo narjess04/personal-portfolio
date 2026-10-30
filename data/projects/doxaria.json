@@ -1,0 +1,25 @@
+{
+    "slug":  "doxaria",
+    "title":  "Doxaria · MediTrust",
+    "repo":  "Doxaria-medical-handwriting",
+    "year":  "2025",
+    "categories":  [
+                       "Computer Vision",
+                       "OCR",
+                       "RAG"
+                   ],
+    "technologies":  [
+                         "Python",
+                         "YOLOv8",
+                         "TrOCR",
+                         "CNN",
+                         "FastAPI",
+                         "Flask"
+                     ],
+    "description":  "Transformer une ordonnance manuscrite en données exploitables : un pipeline de vision et d’OCR adapté aux documents médicaux tunisiens, enrichi par la vérification des médicaments et un assistant RAG.",
+    "content":  "## Rendre les documents manuscrits exploitables\nLes ordonnances et les bulletins de soins contiennent des informations utiles, mais difficiles à extraire automatiquement : écritures variables, vocabulaire médical et mises en page différentes. Doxaria · MediTrust relie la lecture de ces documents à leur consultation dans une application web.\n\n## De l’image aux données structurées\nJ’ai travaillé sur la préparation des données, l’annotation des zones manuscrites et le prétraitement des images. Le pipeline associe un CNN pour identifier le type de document, YOLOv8 pour localiser les zones de texte et TrOCR, adapté aux ordonnances tunisiennes, pour les transcrire.\n\nLes informations extraites sont ensuite rapprochées des référentiels DPM et CNAM afin de retrouver les médicaments et corriger certaines erreurs de lecture. L’analyse du cachet et de l’en-tête permet également de signaler des incohérences.\n\n## Une application autour du modèle\n- Import de documents depuis un ordinateur ou un téléphone.\n- Consultation et correction manuelle du texte extrait.\n- Vérification des médicaments et affichage des informations de référence.\n- Assistant RAG pour interroger les fiches des médicaments présents dans le document.\n- Historique des documents dans un espace personnel.\n\n## Le défi technique\nL’enjeu ne se limite pas à reconnaître des caractères : il faut conserver le sens du document malgré les erreurs d’OCR. L’association de modèles de vision, de référentiels métier et d’une étape de correction manuelle répond à cette difficulté.\n\nProjet académique réalisé à ESPRIT, en collaboration avec la startup Doxaria, en 2025.",
+    "author":  "Narjess Ben Romdhane",
+    "github":  "https://github.com/narjess04/Doxaria-medical-handwriting",
+    "post_date":  "2025-05-20",
+    "update_date":  "2026-10-30"
+}
